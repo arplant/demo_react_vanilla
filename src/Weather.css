@@ -1,0 +1,77 @@
+.Weather {
+  position: relative;
+  margin-bottom: 1rem;
+  animation-name: fadeIn;
+  animation-duration: 0.25s;
+}
+
+.Weather-Precip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-radius: 0.3rem;
+  position: relative;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+}
+
+.Weather-Precip-Bar {
+  width: 10px;
+  margin: 0.1rem 0.1rem 0;
+  background-color: var(--light-background);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  animation-name: fadeIn;
+  animation-duration: 0.8s;
+}
+
+.Weather-Overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  z-index: 3;
+  transition: 0.225s all ease-in;
+}
+
+.Weather-Overlay:hover {
+  transition: opacity 0.9;
+  cursor: pointer;
+}
+
+.Weather-Mask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: none;
+  border-radius: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.6;
+  z-index: 3;
+  animation-name: fadeIn;
+  animation-duration: 0.1s;
+}
+
+.Weather-Day-Bar {
+  margin: 0.1rem 0.1rem 0;
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 1;
+  }
+}

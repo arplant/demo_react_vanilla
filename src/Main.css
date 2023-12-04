@@ -1,0 +1,40 @@
+.Main-PageContainer {
+  max-width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.Main-PageContainer p {
+  max-width: 70%;
+  line-height: var(--p-height);
+  max-height: 100vh;
+}
+
+.Main-NavbarContainer {
+  /* flex: 0 1 auto; */
+  max-width: 100vw;
+}
+
+
+.Main-BodyContainer {
+  position: relative;
+  margin: 0 0 10rem 0;
+  padding: 0;
+  /* display: flex; */
+  /* flex: 1 1 auto; */
+  width: 100vw;
+  transition: 0.25s all ease-in;
+}
+
+/* #pageUp {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: fixed;
+  bottom: 0rem;
+  right: -0.5rem;
+  border-top-left-radius: 2rem;
+  opacity: 0.9;
+  z-index: 1;
+} */

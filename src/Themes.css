@@ -1,0 +1,159 @@
+/* Light theme */
+.lightTheme {
+  color: var(--light-color);
+  background-color: var(--light-background);
+  transition: 0.25s all ease-in;
+}
+
+.lightTheme .Main-BodyContainer {
+  background-color: var(--light-background);
+}
+
+.lightTheme .Navbar {
+  background-color: var(--light-background-accent);
+  box-shadow: 0px 1px 2px var(--light-background-accent);
+}
+
+.lightTheme a {
+  color: var(--light-color);
+}
+
+.lightTheme button {
+  color: var(--light-color);
+  box-shadow: 0px 0px 5px var(--dark-background);
+}
+
+/* .lightTheme #pageUp {
+  background-color: var(--light-background-accent);
+  box-shadow: 0px 0px 5px var(--light-accent);
+} */
+
+/* Content container themes */
+
+
+.lightTheme .Content-Container a:hover {
+  border-color: var(--light-color);
+}
+
+
+/* API Demo Weather component themes */
+
+.lightTheme .Weather-Precip {
+  border: 0.15rem solid var(--light-color);
+  background-color: var(--dark-background-accent);
+  transition: 0.4s all ease-in;
+}
+
+.lightTheme .Weather-Precip-Bar {
+  background-color: var(--light-background);
+  transition: 0.8s all ease-in;
+}
+
+.lightTheme .Weather-Overlay {
+  border: 0.15rem solid var(--light-color);
+}
+
+.lightTheme .Weather-Overlay:hover {
+  background-color: var(--light-background-accent);
+  opacity: 0.95;
+}
+
+.lightTheme .Weather-Mask {
+  border: 0.15rem solid var(--light-color);
+  /* background-color: var(--dark-background); */
+}
+
+.lightTheme .Weather-Day-Bar {
+  background-color: var(--dark-background);
+  transition: 1.3s all ease-in;
+}
+
+
+/* Footer themes */
+
+.lightTheme .footer {
+  background-color: var(--light-background-accent);
+  box-shadow: 0px -1px 2px var(--light-background-accent);
+}
+
+
+
+
+/* __________________________________________________________ */
+
+
+
+
+
+/* Dark theme */
+
+.darkTheme {
+  color: var(--dark-color);
+  background-color: var(--dark-background);
+  transition: 0.25s all ease-in;
+}
+
+.darkTheme .Navbar {
+  background-color: var(--dark-background-accent);
+  box-shadow: 0px 1px 2px var(--dark-background-accent);
+}
+
+.darkTheme a {
+  color: var(--dark-color);
+}
+
+.darkTheme button {
+  color: var(--dark-color);
+  box-shadow: 0px 0px 5px var(--light-background);
+}
+
+/* .darkTheme #pageUp {
+  background-color: var(--dark-background-accent);
+  box-shadow: 0px 0px 5px var(--dark-accent);
+} */
+
+
+
+/* Content container themes */
+
+.darkTheme .Content-Container a:hover {
+  border-color: var(--dark-accent);
+}
+
+.darkTheme .Weather-Precip {
+  border: 0.15rem solid var(--dark-color);
+  background-color: var(--light-background-accent);
+  transition: 0.4s all ease-in;
+}
+
+.darkTheme .Weather-Precip-Bar {
+  background-color: var(--dark-background);
+  transition: 0.8s all ease-in;
+}
+
+.darkTheme .Weather-Overlay {
+  border: 0.15rem solid var(--dark-color);
+}
+
+.darkTheme .Weather-Overlay:hover {
+  background-color: var(--dark-background-accent);
+  opacity: 0.95;
+}
+
+.darkTheme .Weather-Mask {
+  /* background-color: var(--light-background-accent); */
+  border: 0.15rem solid var(--dark-color);
+}
+
+.darkTheme .Weather-Day-Bar {
+  background-color: var(--dark-background);
+  transition: 1.3s all ease-in;
+}
+
+
+/* Footer themes */
+
+.darkTheme footer {
+  background-color: var(--dark-background-accent);
+  box-shadow: 0px -1px 2px var(--dark-background-accent);
+}
