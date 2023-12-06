@@ -6,12 +6,12 @@ import { v4 as uuidv4 } from 'uuid';
 import html_icon from '../src/assets/HTML5_icon.png';
 import css_icon from '../src/assets/CSS3_icon.png';
 import react_icon from '../src/assets/React_icon.png';
-import nodejs_icon from '../src/assets/Nodejs_icon.png';
+//import nodejs_icon from '../src/assets/Nodejs_icon.png';
 
 class Footer extends Component {
-  constructor(props){
-    super(props);
-  }
+  // constructor(props){
+  //   super(props);
+  // }
 
 render(){
   const logos = [
